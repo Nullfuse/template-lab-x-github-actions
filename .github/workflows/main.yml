@@ -27,7 +27,7 @@ jobs:
       
       # Runs CMake
       - name: CMake
-        run: cmake3 .
+        run: cmake .
 
       # Runs make
       - name: make
