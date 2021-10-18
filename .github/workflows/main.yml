@@ -25,13 +25,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       
-      # Get GoogleTest
-      - name: GoogleTest
-        run: git submodule add https://github.com/google/googletest.git
-
       # Runs CMake
       - name: CMake
-        run: cmake .
+        run: cmake3 .
 
       # Runs make
       - name: make
