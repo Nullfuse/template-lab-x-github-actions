@@ -7,7 +7,7 @@ Rectangle::Rectangle() {
 
 Rectangle::Rectangle(int w, int h) {
     this->width = w;
-    this->width = h;
+    this->height = h;
 }
 
 void Rectangle::set_width(int w) {
