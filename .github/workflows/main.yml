@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main, fyang094/ci_setup, fyang094/passing_tests ]
+    branches: [ main, fyang094/ci_setup, fyang094/failing_tests ]
   pull_request:
     branches: [ main ]
 
